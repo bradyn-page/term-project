@@ -16,34 +16,15 @@ CTEC 4309 Class Working File
 <h3>Form</h3>
 * required fields
  <form action= "post3.php" method="post">
-	Author * : <input type="text" name="author"><br/>
+	Author * : <input type="text" name="name"><br/>
 	Email : <input type="text" name="email"><br/>
-	Title * : <input type="text" name="title"><br/>
+	
 
 	
 	Tag: 
-	<input type="checkbox" name="tag[]" value="General Interests"> General Interests
-	<input type="checkbox" name="tag[]" value="Local Schools"> Local Schools
-	<input type="checkbox" name="tag[]" value="Safety"> Safety
+	<input type="checkbox" name="tag[]" value="Check here"> Check here to recieve email updates
 	<br/>
-		 <!--Cities-->
-    <label for="cities">City*:</label>
-    <select id="cities" name="city"> 
-        <option value="Dallas">Dallas</option>
-        <option value="Arlington">Arlington</option>
-        <option value="Fort Worth">Fort Worth</option>
-    </select>
-    <br>
-
-   Background color:
-	<input type="radio" name="bgcolor" id="red" value="red"> 
-	    <label for"red">Red </label>
-	<input type="radio" name="bgcolor" id="blue" value="blue"> 
-		<label for"blue">Blue</label>
-	<input type="radio" name="bgcolor" id="green" value="green"> 
-		<label for"green">Green </label>
-	<br/>
-
+	Title * : <input type="text" name="subject">Subject<br/>
 	Comment * : <br/><textarea name="comment" rows="5" cols="40"></textarea><br>
 	<input type="Submit" name="SubmitThis" value="Preview">
 	
