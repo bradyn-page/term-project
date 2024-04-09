@@ -9,6 +9,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-pUA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Customer Section</title>
+  </head>
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
    <script src="script.js" defer></script>
@@ -40,35 +47,61 @@
           <li class="nav-findus"><a href="findus.html">Find Us</a></li>
         </ul>
     </nav>
-    <div class="row">
-        <div class="column">
-            <div class="left-column">
-                <img class="" src="">
-                <br>
-                <div>
-                    <p class="custo-rev"> Customer Review 1</p>
-                    <img class="">
-                </div>
-            </div>
+
+<!-- customer reviews -->
+    <header>
+      <div class="container">
+        <div class="container__left">
+          <h1>Read what our customers love about us</h1>
+          <p>
+            Best spot for quick, tasty food!
+          </p>
+          <p>
+           Love all the options available!
+          </p>
+          <button>Read our success stories</button>
         </div>
-        <div class="column">
-            <div class="right-column">
-                <p class="custofav"> CUSTOMER'S FAVORITES <br> </p>
+        <div class="container__right">
+          <div class="card">
+            <img src="assets/pic-1.jpg" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
                 <p>
-                        POPCORN CHICKEN<br>
-                         BEEF LO MEIN <br>
-                        SHRIMP FRIED RICE <br>
-                        THAI TEA    
+                 I always get the boba tea!
                 </p>
-                    <br><br>
-                    PLACE AN ORDER AHEAD <br>
-                    AND PICK UP IN STORE
-                    <br>
-                    <br>
-                    <button class="order-button"> <a href="menu.html">ORDER</a></button>
+                <h4>-CA </h4>
+              </div>
             </div>
+          </div>
+          <div class="card">
+            <img src="assets/pic-2.jpeg" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  The bao is to die for!
+                </p>
+                <h4>- L</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/pic-3.jpg" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                 I love their orange chicken!
+                </p>
+                <h4>- J</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </header>
+<!--end of customer reviews-->
     </body>
 </html>
   </body>
