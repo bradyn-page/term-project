@@ -153,7 +153,7 @@ nav-list {
 }
 
 
-/*styles for rating system/user reviews pages */
+/*styles for star rating system on reviews page*/
 
 /* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
@@ -198,4 +198,4 @@ body {
 .stars i.active {
   color: #ff9c1a;
 }
-/* end of style for rating system/user reviews page*/
+/* end of style for star rating system on reviews page*/
