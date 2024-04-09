@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en">
+
+    <title>Home | Bethany Cafe Reviews </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-pUA-Compatible" content="ie=edge" />
-    <title>Star Rating in HTML CSS & JavaScript</title>
-    <link rel="stylesheet" href="style.css" />
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
    <script src="script.js" defer></script>
@@ -22,5 +24,52 @@
         <i class="fa-solid fa-star"></i>
       </div>
     </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&family=Pacifico&family=Permanent+Marker&family=Titan+One&display=swap" rel="stylesheet">
+
+
+    <body>
+    <nav class="nav">
+        <img src="images/bethany.png">
+        <ul class="nav-list">
+          <li class="nav-home"><a href="index.html">Home</a></li>
+          <li class="nav-menu"><a href="menu.html">Menu</a></li>
+          <li class="nav-drinks"><a href="drinks.html">Drinks</a></li>
+          <li class="nav-findus"><a href="findus.html">Find Us</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="column">
+            <div class="left-column">
+                <img class="" src="">
+                <br>
+                <div>
+                    <p class="custo-rev"> Customer Review 1</p>
+                    <img class="">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="right-column">
+                <p class="custofav"> CUSTOMER'S FAVORITES <br> </p>
+                <p>
+                        POPCORN CHICKEN<br>
+                         BEEF LO MEIN <br>
+                        SHRIMP FRIED RICE <br>
+                        THAI TEA    
+                </p>
+                    <br><br>
+                    PLACE AN ORDER AHEAD <br>
+                    AND PICK UP IN STORE
+                    <br>
+                    <br>
+                    <button class="order-button"> <a href="menu.html">ORDER</a></button>
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
   </body>
 </html>
