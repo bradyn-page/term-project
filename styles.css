@@ -1,51 +1,3 @@
-/*styles for star rating system on reviews page*/
-
-/* Import Google font - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-.reviews {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(45deg, #ffd195, #ffb283);
-}
-.rating-box {
-  position: relative;
-  background: #fff;
-  padding: 25px 50px 35px;
-  border-radius: 25px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-}
-.rating-box header {
-  font-size: 22px;
-  color: #dadada;
-  font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
-}
-.rating-box .stars {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-.stars i {
-  color: #e6e6e6;
-  font-size: 35px;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
-.stars i.active {
-  color: #ff9c1a;
-}
-/* end of style for star rating system on reviews page*/
-
-/* styles for reviews */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 :root {
@@ -66,7 +18,7 @@ body {
 }
 
 header {
-  background-image: url("");
+  background-image: url("assets/bg.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,4 +128,3 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-/*end of styles for reviews*/
