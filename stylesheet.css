@@ -163,7 +163,7 @@ nav-list {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
+.reviews {
   height: 100vh;
   display: flex;
   align-items: center;
