@@ -103,7 +103,7 @@ nav li a {
 nav li a:hover {
     background-color: #111;
   }
-
+*/
 nav {
 display: flex;
 position: sticky;
@@ -143,7 +143,7 @@ nav-list {
     color: #ffd700;
     /* Change the color on hover */
 }
-*/
+
 .feat-item{
     font-family: "Pacifico", cursive;
 }
