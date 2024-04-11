@@ -142,7 +142,7 @@ header {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding: 20px 3%;
+    padding: 5px 3%;
     background-color:#fe6769;
 }
 .logo {
